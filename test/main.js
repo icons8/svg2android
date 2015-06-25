@@ -3,7 +3,7 @@ var
   converter = require('..')
   ;
 
-describe('svg-path-bounding-box', function () {
+describe('svg2android', function () {
 
 
   it('should work', function() {
