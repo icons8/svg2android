@@ -1,0 +1,28 @@
+{
+  "name": "svg2android",
+  "description": "Nodejs-based tool for convert SVG vector graphics files to Android Vector Drawable format",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/icons8/svg2android"
+  },
+  "main": "index.js",
+  "bin": {
+    "svg2android": "./bin/converter.js"
+  },
+  "dependencies": {
+    "svgpath": "^2.0.0",
+    "svg-path-bounding-box": "^1.0.4",
+    "svg-numbers": "^0.1.1",
+    "cheerio": "^0.19.0",
+    "svg-path": "^0.2.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "jshint index.js && node_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "jshint": "^2.4.1",
+    "mocha": "^2.2.4",
+    "should": "^4.6.5"
+  }
+}
