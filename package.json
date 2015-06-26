@@ -5,6 +5,13 @@
   "repository": {
     "url": "https://github.com/icons8/svg2android"
   },
+  "tags": [
+    "svg",
+    "android",
+    "drawable",
+    "drawables",
+    "vector"
+  ],
   "main": "index.js",
   "bin": {
     "svg2android": "./bin/converter.js"
